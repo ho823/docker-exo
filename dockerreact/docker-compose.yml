@@ -1,0 +1,8 @@
+version: '2.2'
+services:
+  server:
+      image: express-docker
+      ports: 
+          - 8080:5000
+  mongodb:
+      image: mongo
